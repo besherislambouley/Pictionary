@@ -1,6 +1,6 @@
 /* 
  * we iterate over days from m to 1 adding edges between the i th node and its multiples 2*i , 3*i .. with value m-i+1
- * we only add edges if those to nodes are in different components , then we only add n-1 edges forming a tree 
+ * we only add edges if those two nodes are in different components , then we only add n-1 edges forming a tree 
  * now the answer of nodes a,b is the maximum value on the path from a to b , use sparce table to answer that in O (log n ) 
 */
     #define fast ios_base::sync_with_stdio(0),cin.tie(0),cout.tie(0)
